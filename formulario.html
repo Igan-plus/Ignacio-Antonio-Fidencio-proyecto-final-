@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Registro en Curso</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="form.js"></script>
+
+</head>
+<body>
+
+<header>
+<h1>Registro en Curso</h1>
+<nav>
+<a href="index.html" style="color:white;">Inicio</a>
+</nav>
+</header>
+
+<main>
+<form id="form">
+<label>Nombre:
+<input type="text" id="nombre" required autofocus>
+</label>
+<label>Correo:
+<input type="email" id="email" required>
+</label>
+<label>Curso:
+<select id="curso" required>
+<option value="">-- Selecciona --</option>
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="JavaScript">JavaScript</option>
+</select>
+</label>
+<button type="submit">Registrar</button>
+<p id="mensaje"></p>
+</form>
+</main>
+
+<footer>
+<p>&copy; 2025 Academia Web</p>
+</footer>
+
+</body>
+</html>

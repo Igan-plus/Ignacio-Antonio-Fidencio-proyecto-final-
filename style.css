@@ -1,0 +1,19 @@
+body { font-family: Arial; margin: 20px; }
+
+header, footer { background: #004080; color: white; padding: 10px; text-align: center; }
+
+nav a { margin: 0 10px; color: white; text-decoration: none; }
+
+section { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+
+header, footer { background: #004080; color: white; padding: 10px; text-align: center; }
+
+form { max-width: 300px; margin: 20px auto; display: flex; flex-direction: column; gap: 10px; }
+
+input, select, button { padding: 8px; }
+
+button { background: #004080; color: white; border: none; cursor: pointer; }
+
+button:hover { background: #0066cc; }
+
+#mensaje { margin-top: 10px; font-weight: bold; }
